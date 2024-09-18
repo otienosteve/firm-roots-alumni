@@ -1,3 +1,13 @@
 body{
-    background-color: rgb(223, 157, 35);
+    background: rgb(223,157,35);
+    background: linear-gradient(90deg, rgba(223,157,35,0.938813025210084) 23%, rgba(212,186,94,1) 80%);
+background-image: url('static/images/grad-image.jpg') 50% 0 no-repeat fixed;;
+}
+.btn-prime:hover {
+background-color: rgb(223,157,35);
+border: 2px solid  rgb(167, 122, 39);
+}
+
+.btn-prime{
+    background-color: #2ba090;
 }

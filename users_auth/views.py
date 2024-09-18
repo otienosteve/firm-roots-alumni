@@ -9,6 +9,9 @@ def login(request):
 
 def register(request):
 
+    if request.method=='POST':
+        print("posted")
+
     return render(request,"register.html")
 
 
